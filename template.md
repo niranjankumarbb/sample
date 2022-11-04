@@ -1,0 +1,14 @@
+Passing data 'HELLOOOO' from child to parent and displaying that data in parent component
+useState, useState(arr), useRef, useParams
+Context template
+props.children - {children}
+Outlet
+Bootstrap imports at App.js for dropdown to work
+Install jQuery , Popper.js
+Child routes
+App bar using bootstrap with customised color
+Image in Appbar
+Image in signup page - 2 ways to writing <img src=''>
+fetch API DEMO
+JSON.stringify()
+avatar 
