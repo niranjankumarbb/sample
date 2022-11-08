@@ -15,7 +15,7 @@ import {Link,Route, Routes,BrowserRouter} from 'react-router-dom'
 function Routers() {
   return (
     <div>
-         <BrowserRouter basename={window.location.pathname || ''}>  
+         <BrowserRouter>  
            <Routes>
             <Route path='/' element={<Dashboard/>}   >
               <Route path='contextdemo' element={<ContextDemo/>} /> 
