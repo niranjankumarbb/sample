@@ -12,7 +12,7 @@ import {Link,Route, Routes,BrowserRouter} from 'react-router-dom'
  import App from './App'
 
  
-function Routers() {
+ function Routers() {
   return (
     <div>
          <BrowserRouter>  
