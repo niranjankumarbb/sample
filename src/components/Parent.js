@@ -18,7 +18,10 @@ import Child from './Child'
         <Child data={parentData.current} handleChildData={getChildData}/>
         <h2>The child msg inside parent component is  {childData}</h2><br/><br/>
 
-        
+        <hr/>
+        <h3>:: after demo</h3><br/> 
+        <label className='mandatory'> Enter demo</label><br/>
+        <input  type='text' />
 
      </div>
   )

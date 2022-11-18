@@ -4,6 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import $ from 'jquery';
 import Popper from 'popper.js'; 
 import Dashboard from './components/Dashboard'
+import './style.css'
 
 function App() {
   return (
