@@ -19,7 +19,7 @@ import Child from './Child'
         <h2>The child msg inside parent component is  {childData}</h2><br/><br/>
 
         <hr/>
-        <h3>:: after demo</h3><br/> 
+        <h3>::after demo</h3><br/> 
         <label className='mandatory'> Enter demo</label><br/>
         <input  type='text' />
 

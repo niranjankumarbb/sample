@@ -12,3 +12,6 @@ Image in signup page - 2 ways to writing <img src=''>
 fetch API DEMO
 JSON.stringify()
 avatar 
+Protectedroutes
+Register.js -  useNavigate, <Navigate to=/login>
+Register.js - global variable (render wont get executed) vs useState
