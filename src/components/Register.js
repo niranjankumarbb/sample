@@ -28,7 +28,7 @@ let status= false
          <label> Password</label><br/>
          <input type='password'/><br/><br/>
 
-        <button onClick={handleSubmit }>   {status1? 'true': 'false'} </button>
+        <button onClick={handleSubmit }>  Submit</button>
          {status1?  <Navigate to ='/dashboard'/>  : <button>true</button>}
  
         {/* {status1 &&  <button>true</button> } */}
