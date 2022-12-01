@@ -4,10 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
     }
   
-  label {
+   label {
     font-size: .7rem;
-  }
-  `
+  } 
+ 
   input.form-control, input.form-control:focus {
     background: #F0F0FF;
   }
