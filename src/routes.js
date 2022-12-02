@@ -28,9 +28,7 @@ import {Link,Route, Routes,BrowserRouter} from 'react-router-dom'
                 <Route path='login' element={<MatLogin/>} /> 
                 <Route path='fetch' element={<ProtectedRoutes Component= {Fetch}/>} />
                 <Route path='fetch/:id' element={<RouterHooksDemo/>} /> 
-              </Route>
- 
-             
+              </Route> 
           </Routes>  
           </BrowserRouter>
         </div>
