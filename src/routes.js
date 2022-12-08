@@ -19,7 +19,7 @@ import {Link,Route, Routes,BrowserRouter} from 'react-router-dom'
     <div>
          <BrowserRouter basename='/sample'>  
            <Routes>
-           <Route path='/sample' element={<Register/>} exact={true} /> 
+           <Route path='/' element={<Register/>} exact={true} /> 
             <Route path='/dashboard' element={<Dashboard/>}   >
                 <Route path='contextdemo' element={<ContextDemo/>} /> 
                 <Route path='showdemo' element={<Showdemo/>}   /> 
