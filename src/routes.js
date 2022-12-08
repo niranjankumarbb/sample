@@ -17,7 +17,7 @@ import {Link,Route, Routes,BrowserRouter} from 'react-router-dom'
  function Routers() {
   return (
     <div>
-         <BrowserRouter basename='/sample'>  
+         <BrowserRouter >  
            <Routes>
            <Route path='/' element={<Register/>} exact={true} /> 
             <Route path='/dashboard' element={<Dashboard/>}   >
