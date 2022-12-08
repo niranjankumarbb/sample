@@ -20,7 +20,7 @@ function FetchDemo() {
     
   return (
     <div>
-        <h2>FetchDemo</h2>
+         <h2>FetchDemo</h2>
         <h4> Click on the links to see the useParams demo </h4>
         <ul>
             <li><a href='/fetch/1'>Link1</a></li>
