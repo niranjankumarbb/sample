@@ -2,8 +2,7 @@ import React from 'react'
 
 let childData= 'HELLOOOO'
 function Child(props) {
-
-    console.log('childdata in child component ',childData )
+    // console.log('childdata in child component ',childData )
    return (
     <div>
         Child Component
