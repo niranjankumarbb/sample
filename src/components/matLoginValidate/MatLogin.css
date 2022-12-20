@@ -4,15 +4,15 @@ body {
     font-family: 'Roboto', sans-serif;
     }
   
-   label {
+label {
     font-size: .7rem;
   } 
  
-  input.form-control, input.form-control:focus {
+input.form-control, input.form-control:focus {
     background: #F0F0FF;
   }
   
-  .error {
+.error {
     position: absolute;
     color: red;
     font-size: .6rem;
