@@ -62,7 +62,6 @@ export const Signup = () => {
           {/* <img className="img-fluid w-100" src='/images/rocket.png'   alt=""/> */}
         </div>
       </div>
-    </div>
-    
+    </div>    
   )
 }
