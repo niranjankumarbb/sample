@@ -2,7 +2,6 @@
 import React , {useContext} from 'react'
 import { store } from "./Context"
 
-
 function ContextDemo() {
     const {fullName, setName}= useContext(store)
   return (
