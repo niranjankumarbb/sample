@@ -11,7 +11,7 @@ let status= false
     const handleSubmit= ()=>{
     //  navigate('/dashboard')
     // status=true;
-    console.log('status value- ', status)
+    // console.log('status value- ', status)
     localStorage.setItem('key', true)
 
      setStatus1(prevStatus1=> !prevStatus1)
