@@ -9,7 +9,7 @@ const RouterHooksDemo = (props) => {
     <div>
         RouterHooksDemo  <br/>
         <span> Id is {id}</span>
-        {/* {console.log('id  is ', id)}  */}
+        {console.log('id  is ', id)} 
         {console.log('location details is ', location)} 
         <h3> The current url using useLocation is {location.pathname}</h3>
     </div>
