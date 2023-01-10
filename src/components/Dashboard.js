@@ -50,9 +50,9 @@ function Dashboard() {
   </div>
 </nav>
 
-        <Outlet/> 
+<Outlet/> 
 
-    </div>
+</div>
   )
 }
 
