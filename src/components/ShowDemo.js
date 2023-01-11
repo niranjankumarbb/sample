@@ -6,7 +6,7 @@ export default function Showdemo() {
 
   return (
     <div>
-        <p>Showdemo</p>
+        <h2>Showdemo</h2>
         <p>{fullName.firstName}</p>
     </div>
   )
