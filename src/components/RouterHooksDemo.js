@@ -7,7 +7,7 @@ const RouterHooksDemo = (props) => {
        const location = useLocation()
   return (
     <div>
-        RouterHooksDemo  <br/>
+        <h2>RouterHooksDemo</h2>  <br/>
         <span> Id is {id}</span>
         {console.log('id  is ', id)} 
         {console.log('location details is ', location)} 
