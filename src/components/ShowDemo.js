@@ -1,13 +1,13 @@
-import React, {useContext} from 'react';
-import { store } from "./Context"
- 
+import React, { useContext } from "react";
+import { store } from "./Context";
+
 export default function Showdemo() {
-    const {fullName, setName} = useContext(store)
+  const { fullName, setName } = useContext(store);
 
   return (
     <div>
-        <h2>Showdemo</h2>
-        <p>{fullName.firstName}</p>
+      <h2>Showdemo</h2>
+      <p>{fullName.firstName}</p>
     </div>
-  )
+  );
 }
