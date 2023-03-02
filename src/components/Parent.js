@@ -12,6 +12,7 @@ import Child from './Child'
     const getChildData= (data)=>{ 
     setchildData(data)
    }
+   
    return (
     <div>
         Parent Component

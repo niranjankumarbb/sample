@@ -20,7 +20,8 @@ import {Link,Route, Routes,BrowserRouter} from 'react-router-dom'
          <BrowserRouter >  
            <Routes>
            <Route path='/' element={<Register/>} exact={true} /> 
-            <Route path='/dashboard' element={<Dashboard/>}   >
+           {/* <Route element={<ProtectedRoutes />}> */}
+               <Route path='/dashboard' element={<Dashboard/>}   >
                 <Route path='contextdemo' element={<ContextDemo/>} /> 
                 <Route path='showdemo' element={<Showdemo/>}   /> 
                 <Route path='interaction' element={<ProtectedRoutes Component= {Parent}/>} /> 
@@ -29,6 +30,8 @@ import {Link,Route, Routes,BrowserRouter} from 'react-router-dom'
                 <Route path='fetch' element={<ProtectedRoutes Component= {Fetch}/>} />
                 <Route path='fetch/:id' element={<RouterHooksDemo/>} /> 
               </Route> 
+          {/* </Route> */}
+
           </Routes>  
           </BrowserRouter>
         </div>

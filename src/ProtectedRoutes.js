@@ -10,6 +10,8 @@ const ProtectedRoutes = (props) => {
     <div>
         <p>This is a ProtectedRoutes</p>
         {isLoggedin? <Component/> : <Navigate to='/'/>}
+        {/* {isLoggedin? <Outlet /> : <Navigate to='/' /> } */}
+
     </div>
   )
 }
