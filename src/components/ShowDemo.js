@@ -5,9 +5,9 @@ export default function Showdemo() {
   const { fullName, setName } = useContext(store);
 
   return (
-    <div>
+    <>
       <h2>Showdemo</h2>
       <p>{fullName.firstName}</p>
-    </div>
+    </>
   );
 }
