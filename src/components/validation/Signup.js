@@ -37,8 +37,7 @@ export const Signup = () => {
             }}
             validationSchema={validate}
             onSubmit={values => {
-                // console.log('submit values', values)
-            }}
+             }}
             >
             {formik => (
                 <div>
