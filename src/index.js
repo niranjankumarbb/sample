@@ -5,12 +5,12 @@ import Context from "./components/Context"
 
 const ele = (
   <Context>
-  <App />
-</Context>
+    <App />
+  </Context>
 )
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   {ele}
+    {ele}
   </React.StrictMode>
 );
