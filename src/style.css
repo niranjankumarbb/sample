@@ -12,7 +12,6 @@
   margin-left: 5px;
 }
 
-
 .mandatory::before {
   content: "*";
   color: red;
