@@ -11,10 +11,8 @@ import {Link,Route, Routes,BrowserRouter} from 'react-router-dom'
  import MatLogin from './components/matLoginValidate/MatLogin'
  import ProtectedRoutes from './ProtectedRoutes'
  import App from './App'
-
  
  function Routers() {
-
   return (
     <div>
          <BrowserRouter >  
